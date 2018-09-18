@@ -1,0 +1,23 @@
+{
+  "name": "cardbot",
+  "version": "1.0.0",
+  "description": "Slackbot that will be used to create and manage Pay-per-View match cards starting with wwe",
+  "main": "index.js",
+  "dependencies": {
+    "slackbots": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anapp4that/CardBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anapp4that/CardBot/issues"
+  },
+  "homepage": "https://github.com/anapp4that/CardBot#readme"
+}
