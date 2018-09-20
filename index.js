@@ -5,7 +5,6 @@ const fs = require('fs');
 var botToken = fs.readFileSync('./token.txt', 'utf-8');
 botToken = botToken.toString();
 botToken = botToken.trim();
-//console.log(botToken);
 
 // create a bot
 var cardBot = new SlackBot({
