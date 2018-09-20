@@ -3,8 +3,7 @@ var SlackBot = require('slackbots');
 const fs = require('fs');
 
 var botToken = fs.readFileSync('./token.txt', 'utf-8');
-botToken = botToken.toString();
-botToken = botToken.trim();
+botToken = botToken.toString().trim();
 
 // create a bot
 var cardBot = new SlackBot({
@@ -12,7 +11,7 @@ var cardBot = new SlackBot({
     name: 'CardBot'
 });
 
-cardBotot.on('start', function() {
+cardBot.on('start', function() {
     var params = {
         icon_emoji: ':female-judge:'
     };
