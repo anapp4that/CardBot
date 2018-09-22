@@ -1,9 +1,6 @@
 var SlackBot = require('slackbots');
-//file system object
-const fs = require('fs');
 
-var botToken = fs.readFileSync('./token.txt', 'utf-8');
-botToken = botToken.toString().trim();
+botToken = process.env.SLACK_TOKEN
 
 // create a bot
 var cardBot = new SlackBot({
