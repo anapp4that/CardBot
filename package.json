@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Slackbot that will be used to create and manage Pay-per-View match cards starting with wwe",
   "main": "index.js",
+  "bin": {
+    "launch_cardbot": "./bin/launch.sh"
+  },
   "dependencies": {
+    "eslint": "^5.6.0",
     "slackbots": "^1.1.0"
   },
   "devDependencies": {},
