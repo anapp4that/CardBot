@@ -1,10 +1,10 @@
 {
-  "name": "botkit-starter-slack",
-  "description": "A starter kit for building a custom Slack bot with Botkit Studio",
+  "name": "cardbot",
+  "description": "A Slack bot and Web app used for creating match cards for events like wrestling or MMA",
   "version": "0.0.2",
   "author": "Shelby Anderson, Will Poorman, Dakota Brown",
   "bugs": {
-    "url": "https://github.com/howdyai/botkit-starter-slack/issues"
+    "url": "https://github.com/anapp4that/CardBot/issues"
   },
   "dependencies": {
     "@material-ui/core": "^3.1.1",
@@ -32,17 +32,20 @@
   "devDependencies": {
     "prettier": "^1.14.3"
   },
-  "homepage": "https://github.com/howdyai/botkit-starter-slack",
+  "homepage": "https://github.com/anapp4that/CardBot",
   "keywords": [
     "bots",
+    "card",
     "chatbots",
-    "slack"
+    "match",
+    "slack",
+    "web"
   ],
   "license": "ISC",
   "main": "bot.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/howdyai/botkit-starter-slack.git"
+    "url": "https://github.com/anapp4that/CardBot.git"
   },
   "scripts": {
     "build": "next build",
