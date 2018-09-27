@@ -55,6 +55,10 @@ Then launch the Next.js server on a different port than the Slack bot. The defau
 
 `npm run startNext`
 
+If you want to run it in dev mode, where edits are reloaded on the page automatically, do this instead:
+
+`npm run dev`
+
 ## Development
 
 ### Extend CardBot's Functionality
