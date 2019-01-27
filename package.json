@@ -19,6 +19,8 @@
     "express": "^4.16.4",
     "express-hbs": "^1.0.4",
     "jss": "^9.8.7",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.4.7",
     "next": "^7.0.2",
     "node-env-file": "^0.1.8",
     "prop-types": "^15.6.2",
@@ -30,6 +32,8 @@
     "wordfilter": "^0.2.6"
   },
   "devDependencies": {
+    "jest": "^24.0.0",
+    "mockgoose": "^8.0.1",
     "prettier": "^1.16.1"
   },
   "homepage": "https://github.com/anapp4that/CardBot",
@@ -52,6 +56,8 @@
     "dev": "next",
     "prettier": "prettier --single-quote --write **/*.js",
     "start": "node bot.js",
-    "startNext": "next start"
+    "startNext": "next start",
+    "start-api": "node api/app.js",
+    "test": "jest"
   }
 }
