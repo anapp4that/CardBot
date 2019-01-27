@@ -25,15 +25,12 @@ if (process.env.DB_PORT) {
 mongoose.Promise = global.Promise;
 
 mongoose
-  .connect(
-    dbConnectionURI,
-    {
-      user: process.env.DB_USER,
-      pass: process.env.DB_PASS,
-      dbName: process.env.DB_NAME,
-      useNewUrlParser: true
-    }
-  )
+  .connect(dbConnectionURI, {
+    user: process.env.DB_USER,
+    pass: process.env.DB_PASS,
+    dbName: process.env.DB_NAME,
+    useNewUrlParser: true
+  })
   .then(() => {
     console.log('Successfully connected to the database');
   })
